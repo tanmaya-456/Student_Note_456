@@ -1,0 +1,78 @@
+body{
+
+    background:#f4f4f4;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+
+    width:700px;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+
+}
+
+input,textarea{
+
+    width:100%;
+
+    padding:10px;
+
+    margin-top:10px;
+
+    margin-bottom:15px;
+
+    font-size:16px;
+
+    box-sizing:border-box;
+
+}
+
+textarea{
+
+    height:120px;
+
+}
+
+button{
+
+    background:#0077ff;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 20px;
+
+    cursor:pointer;
+
+    border-radius:5px;
+
+}
+
+button:hover{
+
+    background:#005bd3;
+
+}
+
+.note{
+
+    background:#eeeeee;
+
+    padding:10px;
+
+    margin-top:15px;
+
+    border-radius:8px;
+
+}
