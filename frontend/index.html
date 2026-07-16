@@ -1,51 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Student Notes</title>
-
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
     <div class="container">
 
-        <h1>📚 Student Notes</h1>
+        <h2>Login</h2>
 
-        <div class="form">
+        <input type="email" id="email" placeholder="Enter Email">
 
-            <input
-                type="text"
-                id="title"
-                placeholder="Title">
+        <input type="password" id="password" placeholder="Enter Password">
 
-            <textarea
-                id="note"
-                placeholder="Write your note..."></textarea>
+        <button onclick="login()">Login</button>
 
-            <button id="addBtn">
-
-                Add Note
-
-            </button>
-
-        </div>
-
-        <hr>
-
-        <div id="notes">
-
-        </div>
+        <p>
+            Don't have an account?
+            <a href="register.html">Register</a>
+        </p>
 
     </div>
 
-    <script src="script.js"></script>
+    <script src="login.js"></script>
 
 </body>
 
