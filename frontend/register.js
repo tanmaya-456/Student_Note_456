@@ -28,7 +28,7 @@ async function register() {
 
     if (response.ok) {
 
-        window.location.href = "login.html";
+        window.location.href = "index.html";
 
     }
 
