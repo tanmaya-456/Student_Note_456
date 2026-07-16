@@ -8,7 +8,7 @@ async function login() {
     formData.append("username", email);
     formData.append("password", password);
 
-    const response = await fetch("https://student-notes-api-a4lm.onrender.com", {
+    const response = await fetch("https://student-notes-api-a4lm.onrender.com/login", {
 
         method: "POST",
 

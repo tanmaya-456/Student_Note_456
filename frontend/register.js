@@ -4,7 +4,7 @@ async function register() {
 
     const password = document.getElementById("password").value;
 
-    const response = await fetch("https://student-notes-api-a4lm.onrender.com", {
+    const response = await fetch("https://student-notes-api-a4lm.onrender.com/register", {
 
         method: "POST",
 
